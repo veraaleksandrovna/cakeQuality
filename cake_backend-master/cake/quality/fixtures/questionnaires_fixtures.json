@@ -1,0 +1,46 @@
+[
+{
+    "model": "quality.questionnaire",
+    "pk": 1,
+    "fields": {
+        "cake": 1,
+        "user": 2,
+        "shape_and_appearance": 5,
+        "structure_and_consistency": 5,
+        "taste_and_smell": 5
+    }
+},
+{
+    "model": "quality.questionnaire",
+    "pk": 2,
+    "fields": {
+        "cake": 2,
+        "user": 2,
+        "shape_and_appearance": 4,
+        "structure_and_consistency": 2,
+        "taste_and_smell": 2
+    }
+},
+{
+    "model": "quality.questionnaire",
+    "pk": 3,
+    "fields": {
+        "cake": 2,
+        "user": 2,
+        "shape_and_appearance": 4,
+        "structure_and_consistency": 4,
+        "taste_and_smell": 2
+    }
+},
+{
+    "model": "quality.questionnaire",
+    "pk": 4,
+    "fields": {
+        "cake": 3,
+        "user": 2,
+        "shape_and_appearance": 3,
+        "structure_and_consistency": 2,
+        "taste_and_smell": 5
+    }
+}
+]

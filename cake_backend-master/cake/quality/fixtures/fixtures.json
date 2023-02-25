@@ -1,0 +1,315 @@
+[
+{
+    "model": "quality.country",
+    "pk": 1,
+    "fields": {
+        "name": "Россия"
+    }
+},
+{
+    "model": "quality.country",
+    "pk": 2,
+    "fields": {
+        "name": "Беларусь"
+    }
+},
+{
+    "model": "quality.country",
+    "pk": 3,
+    "fields": {
+        "name": "Германия"
+    }
+},
+{
+    "model": "quality.country",
+    "pk": 4,
+    "fields": {
+        "name": "Бельгия"
+    }
+},
+{
+    "model": "quality.country",
+    "pk": 5,
+    "fields": {
+        "name": "Австрия"
+    }
+},
+{
+    "model": "quality.country",
+    "pk": 6,
+    "fields": {
+        "name": "Грузия"
+    }
+},
+{
+    "model": "quality.country",
+    "pk": 7,
+    "fields": {
+        "name": "Армения"
+    }
+},
+{
+    "model": "quality.country",
+    "pk": 8,
+    "fields": {
+        "name": "Франция"
+    }
+},
+{
+    "model": "quality.country",
+    "pk": 9,
+    "fields": {
+        "name": "Британия"
+    }
+},
+{
+    "model": "quality.manufacturer",
+    "pk": 1,
+    "fields": {
+        "name": "Комунарка"
+    }
+},
+{
+    "model": "quality.manufacturer",
+    "pk": 2,
+    "fields": {
+        "name": "ОАО \"Светлана\""
+    }
+},
+{
+    "model": "quality.manufacturer",
+    "pk": 3,
+    "fields": {
+        "name": "Красный пищевик"
+    }
+},
+{
+    "model": "quality.manufacturer",
+    "pk": 4,
+    "fields": {
+        "name": "Каравай"
+    }
+},
+{
+    "model": "quality.manufacturer",
+    "pk": 5,
+    "fields": {
+        "name": "Мир сладостей"
+    }
+},
+{
+    "model": "quality.manufacturer",
+    "pk": 7,
+    "fields": {
+        "name": "Зеленый пищевик"
+    }
+},
+{
+    "model": "quality.cake",
+    "pk": 1,
+    "fields": {
+        "image": "default.jpg",
+        "name": "Базовый продукт",
+        "manufacturer": 1,
+        "country": 1,
+        "description": "«Базовый продукт» – характеристики указанного стандарта, с которым мы сравниваем добавленный продукт.",
+        "composition": "Мука, , яйцо, сахар, сливки, сливочное масло, темный шоколад"
+    }
+},
+{
+    "model": "quality.cake",
+    "pk": 2,
+    "fields": {
+        "image": "default.jpg",
+        "name": "Дюна",
+        "manufacturer": 1,
+        "country": 1,
+        "description": "Оригинальный легкий тортик с ярким вкусом арахиса, карамели и песочного бисквита. У торта два вида песочных коржей, покрытых карамелью, один из которых печется с арахисом. Два разных крема: — заварной с арахисовой пастой и сырный с фундучным пралине.",
+        "composition": "мука, , яйцо, сахар, сливки, творожный сыр, сметана, жареный арахис, маргарин, фундучное пралине, Е-224, E-320"
+    }
+},
+{
+    "model": "quality.cake",
+    "pk": 3,
+    "fields": {
+        "image": "default.jpg",
+        "name": "Сакура",
+        "manufacturer": 1,
+        "country": 1,
+        "description": "Интересное сочетание бисквитного торта, чизкейка и вишни. Тортик прекрасно подойдет и любителям чизкейков, и тем, кто предпочитает классические тортики. Нежный ванильный бисквит, запеченный чизкейк, сырный крем и ароматная вишня в прослойке.",
+        "composition": "мука, , яйцо, сахар, сливочное масло, пектин, творожный сыр, вишня, Е-210, Е-211, Е-223"
+    }
+},
+{
+    "model": "quality.cake",
+    "pk": 4,
+    "fields": {
+        "image": "default.jpg",
+        "name": "Марокко",
+        "manufacturer": 1,
+        "country": 1,
+        "description": "Три сметанных коржа с черносливом, курагой и изюмом, крем из натуральных сливок и вареной сгущенки!",
+        "composition": "мука в/с, яйцо, сметана, курага, чернослив, изюм, сахар, натуральные сливки, вареная сгущенка, E-201, E-304, E-226"
+    }
+},
+{
+    "model": "quality.cake",
+    "pk": 5,
+    "fields": {
+        "image": "default.jpg",
+        "name": "Шоколадный",
+        "manufacturer": 5,
+        "country": 5,
+        "description": "Три сметанных коржа с шоколадом, курагой и изюмом, крем из натуральных сливок и вареной сгущенки!",
+        "composition": "мука в/с, яйцо, шоколад, сметана, курага, чернослив, изюм, сахар, натуральные сливки, вареная сгущенка, E-201, E-304, E-226"
+    }
+},
+{
+    "model": "quality.qualitymetrics",
+    "pk": 1,
+    "fields": {
+        "cake": 1,
+        "margarine_presence": false,
+        "preservatives_presence": false,
+        "antioxidants_presence": false,
+        "benzoic_acid_presence": false,
+        "sodium_benzoate_presence": false,
+        "sodium_pyrosulfite_presence": false,
+        "potassium_pyrosulfite_presence": false,
+        "calcium_sulfite_presence": false,
+        "nisin_presence": false,
+        "butylhydroxyanisole_presence": false
+    }
+},
+{
+    "model": "quality.qualitymetrics",
+    "pk": 2,
+    "fields": {
+        "cake": 2,
+        "margarine_presence": false,
+        "preservatives_presence": false,
+        "antioxidants_presence": true,
+        "benzoic_acid_presence": false,
+        "sodium_benzoate_presence": false,
+        "sodium_pyrosulfite_presence": false,
+        "potassium_pyrosulfite_presence": false,
+        "calcium_sulfite_presence": true,
+        "nisin_presence": true,
+        "butylhydroxyanisole_presence": false
+    }
+},
+{
+    "model": "quality.qualitymetrics",
+    "pk": 3,
+    "fields": {
+        "cake": 3,
+        "margarine_presence": false,
+        "preservatives_presence": true,
+        "antioxidants_presence": true,
+        "benzoic_acid_presence": true,
+        "sodium_benzoate_presence": false,
+        "sodium_pyrosulfite_presence": true,
+        "potassium_pyrosulfite_presence": false,
+        "calcium_sulfite_presence": false,
+        "nisin_presence": false,
+        "butylhydroxyanisole_presence": true
+    }
+},
+{
+    "model": "quality.qualitymetrics",
+    "pk": 4,
+    "fields": {
+        "cake": 4,
+        "margarine_presence": true,
+        "preservatives_presence": false,
+        "antioxidants_presence": true,
+        "benzoic_acid_presence": false,
+        "sodium_benzoate_presence": false,
+        "sodium_pyrosulfite_presence": false,
+        "potassium_pyrosulfite_presence": false,
+        "calcium_sulfite_presence": false,
+        "nisin_presence": false,
+        "butylhydroxyanisole_presence": false
+    }
+},
+{
+    "model": "quality.questionnaire",
+    "pk": 1,
+    "fields": {
+        "cake": 1,
+        "user": 1,
+        "shape_and_appearance": 5,
+        "structure_and_consistency": 5,
+        "taste_and_smell": 5,
+        "grade": 3.7
+    }
+},
+{
+    "model": "quality.questionnaire",
+    "pk": 2,
+    "fields": {
+        "cake": 2,
+        "user": 2,
+        "shape_and_appearance": 4,
+        "structure_and_consistency": 2,
+        "taste_and_smell": 2,
+        "grade": 3.7
+    }
+},
+{
+    "model": "quality.questionnaire",
+    "pk": 3,
+    "fields": {
+        "cake": 3,
+        "user": 2,
+        "shape_and_appearance": 4,
+        "structure_and_consistency": 4,
+        "taste_and_smell": 2,
+        "grade": 3.7
+    }
+},
+{
+    "model": "quality.questionnaire",
+    "pk": 4,
+    "fields": {
+        "cake": 4,
+        "user": 2,
+        "shape_and_appearance": 3,
+        "structure_and_consistency": 2,
+        "taste_and_smell": 5,
+        "grade": 3.7
+    }
+},
+{
+    "model": "quality.questionnaire",
+    "pk": 5,
+    "fields": {
+        "cake": 4,
+        "user": 2,
+        "shape_and_appearance": 2,
+        "structure_and_consistency": 2,
+        "taste_and_smell": 2,
+        "grade": 2.0
+    }
+},
+{
+    "model": "quality.comment",
+    "pk": 1,
+    "fields": {
+        "text": "Вкусно",
+        "created_at": "2022-10-31T19:28:58.168Z",
+        "user": 1,
+        "cake": 1
+    }
+},
+{
+    "model": "quality.comment",
+    "pk": 2,
+    "fields": {
+        "text": "Не вкусно",
+        "created_at": "2022-10-31T19:33:12.861Z",
+        "user": 2,
+        "cake": 2
+    }
+}
+]

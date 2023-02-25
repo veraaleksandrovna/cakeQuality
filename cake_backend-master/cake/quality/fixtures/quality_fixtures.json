@@ -1,0 +1,70 @@
+[
+{
+    "model": "quality.qualitymetrics",
+    "pk": 1,
+    "fields": {
+        "cake": 1,
+        "margarine_presence": false,
+        "preservatives_presence": false,
+        "antioxidants_presence": false,
+        "benzoic_acid_presence": false,
+        "sodium_benzoate_presence": false,
+        "sodium_pyrosulfite_presence": false,
+        "potassium_pyrosulfite_presence": false,
+        "calcium_sulfite_presence": false,
+        "nisin_presence": false,
+        "butylhydroxyanisole_presence": false
+    }
+},
+{
+    "model": "quality.qualitymetrics",
+    "pk": 2,
+    "fields": {
+        "cake": 2,
+        "margarine_presence": true,
+        "preservatives_presence": false,
+        "antioxidants_presence": false,
+        "benzoic_acid_presence": false,
+        "sodium_benzoate_presence": false,
+        "sodium_pyrosulfite_presence": false,
+        "potassium_pyrosulfite_presence": true,
+        "calcium_sulfite_presence": false,
+        "nisin_presence": false,
+        "butylhydroxyanisole_presence": true
+    }
+},
+{
+    "model": "quality.qualitymetrics",
+    "pk": 3,
+    "fields": {
+        "cake": 3,
+        "margarine_presence": false,
+        "preservatives_presence": false,
+        "antioxidants_presence": false,
+        "benzoic_acid_presence": true,
+        "sodium_benzoate_presence": true,
+        "sodium_pyrosulfite_presence": true,
+        "potassium_pyrosulfite_presence": false,
+        "calcium_sulfite_presence": false,
+        "nisin_presence": false,
+        "butylhydroxyanisole_presence": false
+    }
+},
+{
+    "model": "quality.qualitymetrics",
+    "pk": 4,
+    "fields": {
+        "cake": 4,
+        "margarine_presence": false,
+        "preservatives_presence": true,
+        "antioxidants_presence": true,
+        "benzoic_acid_presence": false,
+        "sodium_benzoate_presence": false,
+        "sodium_pyrosulfite_presence": false,
+        "potassium_pyrosulfite_presence": true,
+        "calcium_sulfite_presence": false,
+        "nisin_presence": false,
+        "butylhydroxyanisole_presence": false
+    }
+}
+]

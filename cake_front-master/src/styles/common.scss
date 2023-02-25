@@ -1,0 +1,56 @@
+.cake-detail-card {
+  .description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .star {
+      margin-left: 3px;
+      width: 30px;
+    }
+  }
+}
+
+.questionnaire-form {
+  max-width: 95%;
+  label {
+    text-transform: none;
+    color: #333;
+    font-size: 16px;
+    margin: 20px 0;
+  }
+  .form-check .form-check-label {
+    text-transform: none;
+    color: #333;
+    font-size: 14px;
+    margin: 0;
+  }
+  button {
+    margin: 20px;
+  }
+  button[disabled] {
+    margin-top: 10px;
+    color: #1e1e1e;
+    border-color: #1e1e1e;
+    margin: 20px;
+  }
+  button:disabled {
+    margin-top: 10px;
+    color: #1e1e1e;    
+    margin: 20px;
+    border-color: #1e1e1e;
+  }
+}
+.quality-metrics-form {
+  label {
+    text-transform: none;
+    color: #333;
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  button {
+    margin: 20px;
+  }
+}
+.tick-cross {
+	width: 20px;
+}
